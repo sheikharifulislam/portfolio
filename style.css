@@ -7,10 +7,68 @@
         font-family: 'Poppins', sans-serif;
     }
     
-    h1 {
+    .header-banner {
+        background-image: url('images/top-banner.png');
+        background-repeat: no-repeat;
+    }
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .heaer-content {
+        display: flex;
+    }
+    
+    .header-text {
+        width: 50%;
+        margin-top: 50px;
+    }
+    
+    .header-text h1 {
+        font-size: 50px;
+    }
+    
+    .header-text h2 {
         font-size: 40px;
     }
     
     .second-header-title {
         color: orange;
+    }
+    
+    .header-text h3 {
+        margin-top: 10px;
+    }
+    
+    .header-text P {
+        margin-top: 7px;
+        line-height: 25px;
+    }
+    
+    .hireme-button {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-image: linear-gradient(orange, tomato);
+        font-weight: 700;
+        padding: 10px 40px;
+        color: #fff;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        margin-top: 15px;
+    }
+    
+    .header-image {
+        width: 50%;
+        margin-top: 60px;
+    }
+    
+    .header-image img {
+        width: 55%;
+        margin-left: 45%;
     }
