@@ -7,18 +7,23 @@
         font-family: 'Poppins', sans-serif;
     }
     
-    .header-banner {
-        background-image: url('images/top-banner.png');
-        background-repeat: no-repeat;
+    .flexible-container {
+        display: flex;
     }
     
-    .container {
+    .container-fluid {
         width: 90%;
         margin: 0 auto;
     }
     
-    .heaer-content {
-        display: flex;
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .header-banner {
+        background-image: url('images/top-banner.png');
+        background-repeat: no-repeat;
     }
     
     .header-text {
@@ -80,7 +85,6 @@
     }
     
     .style-dream-big {
-        display: flex;
         margin-top: 70px;
     }
     
@@ -122,4 +126,68 @@
         color: #000;
         font-weight: 550;
         margin-top: 15px;
+    }
+    
+    .experience-area {
+        margin-top: 90px;
+        background-image: url('./images/exp-bg.png');
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    
+    .experience-hadding {
+        font-size: 25px;
+        text-transform: capitalize;
+        color: #FF5CCD;
+    }
+    
+    .experience-box {
+        width: 45%;
+        padding-left: 20px;
+        padding-top: 20px;
+        margin-top: 30px;
+        box-shadow: 10px 10px 40px gray;
+        padding-bottom: 30px;
+    }
+    
+    .experience-box h2,
+    h3 {
+        text-transform: capitalize;
+    }
+    
+    .experience-box h3 {
+        margin-top: 15px;
+        color: orange;
+    }
+    
+    .experience-box p {
+        margin-top: 7px;
+    }
+    
+    .stack-developer {
+        margin-right: 10%;
+        border-left: 7px solid;
+        border-image: linear-gradient(blue, #F00BA4);
+        border-image-slice: 1;
+    }
+    
+    .stack-developer h2 {
+        font-size: 30px;
+        color: #A020F0;
+    }
+    
+    .baby-developer {
+        border-left: 7px solid;
+        border-image: linear-gradient(#E40078, #1560BD);
+        border-image-slice: 1;
+    }
+    
+    .baby-developer h2 {
+        font-size: 30px;
+        color: #5218FA;
+    }
+    
+    .style-footer {
+        margin-top: 100px;
+        text-align: center;
     }
