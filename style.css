@@ -72,3 +72,54 @@
         width: 55%;
         margin-left: 45%;
     }
+    
+    .dream-big {
+        background-image: url('images/dream-bg.png');
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    
+    .style-dream-big {
+        display: flex;
+        margin-top: 70px;
+    }
+    
+    .dream-big-image {
+        width: 50%;
+    }
+    
+    .dream-big-image img {
+        width: 55%;
+        margin-right: 45%;
+    }
+    
+    .dream-big-text {
+        width: 50%;
+    }
+    
+    .dream-big-text h2 {
+        font-size: 40px;
+        color: tomato;
+        margin-bottom: 10px;
+    }
+    
+    .dream-big-text p {
+        line-height: 25px;
+        margin-top: 10px;
+    }
+    
+    .rs-download-button {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: capitalize;
+        background-image: linear-gradient(to right, tomato, #FF5CCD);
+        padding: 7px 15px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        color: #000;
+        font-weight: 550;
+        margin-top: 15px;
+    }
